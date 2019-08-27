@@ -5,7 +5,7 @@
   "description": "Skeleton for web sites",
   "minimum-stability": "alpha",
   "require": {
-    "blackframework/core": "v1.2^"
+    "blackframework/core": "*"
   },
   "require-dev": {
   },
