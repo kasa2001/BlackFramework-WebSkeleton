@@ -1,0 +1,24 @@
+{
+  "name": "blackframework/web-skeleton",
+  "type": "project",
+  "license": "MIT",
+  "description": "Skeleton for web sites",
+  "minimum-stability": "alpha",
+  "require": {
+    "blackframework/core": "v1.2^"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+
+  },
+  "autoload-dev": {
+
+  },
+  "scripts": {
+
+  }
+}
