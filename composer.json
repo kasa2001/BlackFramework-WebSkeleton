@@ -5,7 +5,8 @@
   "description": "Skeleton for web sites",
   "minimum-stability": "alpha",
   "require": {
-    "blackframework/core": "*"
+    "blackframework/core": "*",
+    "blackframework/flex": "*"
   },
   "require-dev": {
   },
@@ -13,12 +14,17 @@
     "sort-packages": true
   },
   "autoload": {
-
+    "psr-4": {
+      "App\\": "src/"
+    }
   },
   "autoload-dev": {
-
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
   },
   "scripts": {
 
   }
 }
+
