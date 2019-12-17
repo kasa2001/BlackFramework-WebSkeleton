@@ -6,7 +6,7 @@
   "minimum-stability": "stable",
   "require": {
     "blackframework/core": "*",
-    "blackframework/flex": "dev-master"
+    "blackframework/flex": "*r"
   },
   "require-dev": {
   },
