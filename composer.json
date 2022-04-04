@@ -1,20 +1,30 @@
 {
-	"type": "project",
-	"license": "proprietary",
-	"require": {
-		"php": "7.*",
-		"blackframework/core": "1.*",
-		"blackframework/routing": "1.*"
-	},
-
-	"autoload": {
-		"psr-4": {
-			"App\\": "src/"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Tests\\": "tests/"
-		}
-	}
+  "name": "blackframework/web-skeleton",
+  "type": "project",
+  "license": "MIT",
+  "description": "Skeleton for web sites",
+  "minimum-stability": "stable",
+  "require": {
+    "blackframework/core": "*",
+    "blackframework/flex": "*",
+    "blackframework/routing": "*"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "allow-plugins": {
+      "blackframework/*": true
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
 }
